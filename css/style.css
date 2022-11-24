@@ -1,0 +1,46 @@
+.container {
+  background-color: #ff8d4f;
+  color: #eb918f;
+}
+.container:hover {
+  background-color: #ffe0cf;
+  color: #ffdae0;
+}
+
+.saturado {
+  color: #ff2a4e;
+}
+
+header {
+  background-color: #c419c4;
+}
+header nav {
+  background-color: #f9c4f9;
+}
+header nav ul {
+  list-style: none;
+}
+header nav ul li a {
+  text-decoration: none;
+  border: 3px dotted pink;
+}
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+@media screen and (max-width: 576px) {
+  header nav ul {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 576px) {
+  header {
+    background-color: aliceblue;
+  }
+}
+
+.bordesRedondos {
+  border-radius: 50%;
+  font-size: 12.5px;
+}
+
+/*# sourceMappingURL=style.css.map */

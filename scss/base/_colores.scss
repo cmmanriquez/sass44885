@@ -1,0 +1,15 @@
+$color-principal: rgb(255, 207, 181);
+$color-secundario: rgb(214, 83, 105);
+
+.container{
+    background-color: darken($color-principal, 20%);
+    color: mix($color-principal, $color-secundario);
+    &:hover{
+        background-color: lighten($color-principal, 5%);
+        color: lighten(pink, 5%);
+    }
+}
+
+.saturado{
+    color: saturate($color-secundario, 50%)
+}

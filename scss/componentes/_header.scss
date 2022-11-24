@@ -1,0 +1,29 @@
+header{
+    background-color: map-get($header, bc-header);
+    nav{
+        background-color: $bc-plum;
+        ul{
+            list-style: map-get($header, deco);
+            li{
+                a{
+                    text-decoration: none;
+                    border: map-get($header, bordes);
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
+            @media screen and (max-width: 576px) {
+                width: 50%;
+            }
+        }
+    }
+    @media screen and (max-width:576px) {
+        background-color: aliceblue;
+    }
+};
+
+.bordesRedondos{
+    border-radius: 50%;
+    font-size: nth($f-size ,1);
+}
